@@ -17,3 +17,5 @@ env/
 # IDEs
 .vscode/
 .idea/
+
+.DS_Store
