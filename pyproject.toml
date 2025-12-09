@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "envsafe"
+version = "0.1.0"
+description = "Tiny, dependency-free environment variable validator for Python."
+readme = "README.md"
+requires-python = ">=3.8"
+
+license = { text = "MIT" }
+
+authors = [
+  { name = "Aditya Malviya", email = "malviya.et@gmail.com" }
+]
+
+keywords = [
+  "environment",
+  "config",
+  "validation",
+  "env",
+  "settings",
+  "env variables",
+  "dotenv",
+  "configuration"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/aditya-malviya/envsafe"
+Issues = "https://github.com/aditya-malviya/envsafe/issues"
+Documentation = "https://github.com/aditya-malviya/envsafe#readme"
+Source = "https://github.com/aditya-malviya/envsafe"
